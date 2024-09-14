@@ -337,7 +337,7 @@ body {
 
 /* Zorgt ervoor dat de rij van 8 images veranderd naar 4 images */
 @media (max-width: 430px) {
-
+    .mugshot-unordered-list-1,
     .mugshot-unordered-list-2,
     .mugshot-unordered-list-3,
     .mugshot-unordered-list-4,
@@ -346,6 +346,7 @@ body {
         flex-wrap: wrap;
         justify-content: space-between;
     }
+    .mugshot-list-item-1,
     .mugshot-list-item-2,
     .mugshot-list-item-3,
     .mugshot-list-item-4,
