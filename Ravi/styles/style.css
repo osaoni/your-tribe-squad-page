@@ -324,11 +324,11 @@ body {
 /* Zorgt ervoor dat er geen hover-effect is (op smartphone kan je niet hoveren) */
 @media (max-width: 430px) {
 
-    .mugshots-teachters:hover,
-    .mugshots-students-row-1:hover,
-    .mugshots-students-row-2:hover,
-    .mugshots-students-row-3:hover,
-    .mugshots-students-row-4:hover {
+    .mugshots-teachters,
+    .mugshots-students-row-1,
+    .mugshots-students-row-2,
+    .mugshots-students-row-3,
+    .mugshots-students-row-4 {
         transition: none;
 
     }
