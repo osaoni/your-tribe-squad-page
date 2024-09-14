@@ -133,14 +133,14 @@ body {
     translate: 0 1em;
 }
 
-@media (min-width:720px) {
+/* @media (min-width:720px) {
     .mugshot-unordered-list-1 {
         grid-column: 2 / 4;
         grid-template-columns: repeat(1. 1fr);
 
 
     }
-}
+} */
 
 
 /* STUDENTS-ROW-2-3-4-5 */
@@ -289,3 +289,70 @@ body {
     margin-bottom: 10em;
 }
 
+
+
+
+/* MEDIA QUERIES */
+
+
+/* Zorgt ervoor dat de images niet in elkaar vouwen bij hover */
+
+@media (max-width: 430px) {
+
+    .mugshot-list-item-2:hover,
+    .mugshot-list-item-3:hover,
+    .mugshot-list-item-4:hover,
+    .mugshot-list-item-5:hover {
+        flex-shrink: 1;
+    }
+
+}
+
+
+/* Zorgt ervoor dat de namen altijd zichtbaar zijn. */
+
+@media (max-width: 430px) {
+
+    .mugshot-list-item-1 p,
+    .mugshot-list-item-2 p,
+    .mugshot-list-item-3 p,
+    .mugshot-list-item-4 p,
+    .mugshot-list-item-5 p {
+        opacity: 1;
+    }
+}
+/* Zorgt ervoor dat er geen hover-effect is (op smartphone kan je niet hoveren) */
+@media (max-width: 430px) {
+
+    .mugshots-teachters:hover,
+    .mugshots-students-row-1:hover,
+    .mugshots-students-row-2:hover,
+    .mugshots-students-row-3:hover,
+    .mugshots-students-row-4:hover {
+        transition: none;
+
+    }
+}
+
+
+/* Zorgt ervoor dat de rij van 8 images veranderd naar 4 images */
+@media (max-width: 430px) {
+
+    .mugshot-unordered-list-2,
+    .mugshot-unordered-list-3,
+    .mugshot-unordered-list-4,
+    .mugshot-unordered-list-5 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .mugshot-list-item-2,
+    .mugshot-list-item-3,
+    .mugshot-list-item-4,
+    .mugshot-list-item-5 {
+       
+        flex: 1 1 25%;
+        height: auto;
+        margin-bottom: 5em;
+    }
+}
