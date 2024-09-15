@@ -3,3 +3,84 @@ body {
     /* background-color: rgb(255, 255, 255); */
     /* background: linear-gradient(#ffffff, #282928); */
 }
+
+
+.container {
+    display:grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12,1fr);
+    padding-top: 10em;
+    height: 20em;
+    
+}
+
+.hotspot-1 {
+    background-color: aqua;
+}
+
+/* .hotspot-2 {
+    background-color: rgb(32, 180, 22);
+}
+
+.hotspot-3 {
+    background-color: rgb(172, 195, 69);
+}
+
+.hotspot-4 {
+    background-color: rgb(130, 45, 190);
+}
+
+.hotspot-5 {
+    background-color: rgb(208, 103, 77);
+}
+
+.hotspot-6 {
+    background-color: rgb(83, 113, 113);
+} */
+
+
+
+
+
+
+
+/* nested grid containers */
+
+.hotspot-1-container-grid {
+    grid-column: 1 / 4;
+    grid-row: 1 / 8;
+}
+
+ .image-hotspot-1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.rating-hotspot-1 {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.vedieping-hotspot-1 {
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+}
+
+
+/* .rating-hotspot-1 {
+    border: 10px solid rgb(255, 85, 47);
+    background-color: rgb(43, 105, 84);
+    border-radius: 5px;
+    grid-column: 1 / 3  ;
+    grid-row: 2;
+
+}  */
+
+/* .verdieping-hotspot-1 {
+    border: 10px solid rgb(122, 151, 132);
+    background-color: rgb(43, 105, 84);
+    border-radius: 5px;
+    grid-column: 1 / 1 ;
+    grid-row: 1 / 1;
+} */
