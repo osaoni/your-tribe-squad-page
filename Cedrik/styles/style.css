@@ -1,5 +1,9 @@
 /**/
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Poppins;
     background-color: rgb(240, 240, 240);
@@ -22,9 +26,10 @@ header {
     display: flex;
     justify-content: center;
     background-color: #D9D9D9;
-    margin: 0 auto;
-    width: 40px;
-    padding: 5px 40px;
+    margin: auto;
+    width: 34px;
+    height: 52px;
+    padding: 0px 30px;
     border-radius: 100px;
 }
 
@@ -33,7 +38,7 @@ header {
     background-color: #474747;
     border: none;
     border-radius: 100px;
-    margin: 10px;
+    margin: 10px 3px;
     padding: 6px;
     height: auto;
 }
@@ -44,7 +49,7 @@ header {
     background-color: #474747;
     border: none;
     border-radius: 100px;
-    margin: 10px;
+    margin: 10px 3px;
     padding: 6px;
 }
 
@@ -68,11 +73,33 @@ h1 {
 }
 
 .klasbutton {
+    background-image: linear-gradient(#f4f4f4 50%,#6A72E5 50%);
     color: #6A72E5;
+    background-size: 100% 200%;
+    background-position: top;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.klasbutton:hover {
+    background-color: #6A72E5;
+    background-position: bottom;
+    color: #f4f4f4;
 }
 
 .locatiesbutton {
-    background-color: #6A72E5;
+    background-image: linear-gradient(#6A72E5 50%, #f4f4f4 50%);
+    color: #f4f4f4;
+    background-size: 100% 200%;
+    background-position: top;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.locatiesbutton:hover {
+    background-color: #f4f4f4;
+    background-position: bottom;
+    color: #6A72E5;
 }
 
 /*Squadpage cards*/
