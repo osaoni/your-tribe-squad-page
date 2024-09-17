@@ -1,83 +1,81 @@
+/**/
+
 body {
-    font-family: Urbanist;
+    font-family: Poppins;
     background-color: rgb(240, 240, 240);
-    background-image: url('../assets/background.png');
+    background-image: url('../assets/gridbg.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    letter-spacing: -1px;
 }
+
+/*Top section*/
 
 header {
     text-align: center;
-    background-color: #6A72E5;
     padding: 10px;
-    margin-bottom: 50px;
+    margin: 100px 0px;
     color: white;
 }
 
-/* .cards-docenten {
+#navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
     margin: 0 auto;
-    margin-bottom: 2em;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    width: 90%;
-    overflow: hidden;
-    background-color: #fff;
+    width: 40px;
+    padding: 5px 40px;
+    border-radius: 100px;
 }
 
-.cards-docenten img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+#home {
+    width: 20px;
+    background-color: #474747;
+    border: none;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 6px;
+    height: auto;
 }
 
-.cards-docenten .card-name {
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
+#info {
+    width: 20px;
+    height: auto;
+    background-color: #474747;
+    border: none;
+    border-radius: 100px;
+    margin: 10px;
+    padding: 6px;
 }
 
-.cards-students {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    width: 90%;
-    overflow: hidden;
-    background-color: #fff;
-
-    @media (max-width: 720px) {
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    line-height: 96%;
 }
 
-.card-item {
-    border: 1px solid grey;
-    width: 100%;
-
-    @media (max-width: 720px) {
-        width: auto;
-    }
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 2px 6px;
+    text-decoration: none;
+    color: lightgrey;
+    border: none;
+    border-radius: 100px;
+    width: 10em;
+    font-family: Poppins;
 }
 
-.cards-students img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
+.klasbutton {
+    color: #6A72E5;
 }
 
-.cards-students img:hover {
-    transform: scale(1.5);
-    width: 150%;
-    height: 80%;
+.locatiesbutton {
+    background-color: #6A72E5;
 }
 
-.cards-students .card-name {
-    padding: 15px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-}
-
-*/
+/*Squadpage cards*/
 
 ul {
     list-style-type: none;
@@ -87,11 +85,22 @@ ul {
     display: flex;
     justify-self: center;
     justify-content: center;
+
+    @media only screen and (max-width: 640px) {
+        display: block;
+        margin: 0;
+    }
 }
 
 .list {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.list-item {
+    @media only screen and (max-width: 640px) {
+        margin-bottom: 30px;
+    }
 }
 
 li {
@@ -107,37 +116,62 @@ li:hover {
 	flex-shrink:0;
 }
 
-img {
+a img {
 	width:100%;
 	height:100%;
 	object-fit:cover;
     border-radius: 8px;
     filter: grayscale(1);
+    
+    @media only screen and (max-width: 640px) {
+        filter: grayscale(0);
+        margin-top: -15px;
+    }
 }
 
-img:hover {
+a img:hover {
     filter: grayscale(0);
     transition: .5s;
 }
 
 li:nth-of-type(2) {
 	translate:0 -2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
 }
 
 li:nth-of-type(3) {
 	translate:0 2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
 }
 
 li:nth-of-type(5) {
 	translate:0 -2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
 }
 
 li:nth-of-type(6) {
 	translate:0 2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
 }
 
 li:nth-of-type(8) {
 	translate:0 -2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
 }
 li p {
 	margin:0;
@@ -148,8 +182,36 @@ li p {
 	white-space:nowrap;
 	opacity:0;
 	transition:.5s;
+
+    @media only screen and (max-width: 640px) {
+        opacity: 1;
+    }
 }
 
 li:hover p {
 	opacity:1;
 }
+
+/*Info cards*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+      
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  #infomain {
+    display: flex;
+    margin: 100px
+  }
