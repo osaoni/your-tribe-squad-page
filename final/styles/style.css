@@ -1,0 +1,244 @@
+/**/
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Poppins;
+    background-color: rgb(240, 240, 240);
+    background-image: url('../assets/gridbg.png');
+    background-repeat: repeat;
+    background-size: 100%;
+    letter-spacing: -1px;
+}
+
+/*Top section*/
+
+header {
+    text-align: center;
+    padding: 10px;
+    margin: 100px 0px;
+    color: white;
+}
+
+#navigation {
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+    margin: auto;
+    width: 34px;
+    height: 52px;
+    padding: 0px 30px;
+    border-radius: 100px;
+}
+
+#home {
+    width: 20px;
+    background-color: #474747;
+    border: none;
+    border-radius: 100px;
+    margin: 10px 3px;
+    padding: 6px;
+    height: auto;
+}
+
+#info {
+    width: 20px;
+    height: auto;
+    background-color: #474747;
+    border: none;
+    border-radius: 100px;
+    margin: 10px 3px;
+    padding: 6px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    line-height: 96%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 2px 6px;
+    text-decoration: none;
+    color: lightgrey;
+    border: none;
+    border-radius: 100px;
+    width: 10em;
+    font-family: Poppins;
+}
+
+.klasbutton {
+    background-image: linear-gradient(#f4f4f4 50%,#6A72E5 50%);
+    color: #6A72E5;
+    background-size: 100% 200%;
+    background-position: top;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.klasbutton:hover {
+    background-color: #6A72E5;
+    background-position: bottom;
+    color: #f4f4f4;
+}
+
+.locatiesbutton {
+    background-image: linear-gradient(#6A72E5 50%, #f4f4f4 50%);
+    color: #f4f4f4;
+    background-size: 100% 200%;
+    background-position: top;
+    transition: .5s;
+    transition-timing-function: ease-in-out;
+}
+
+.locatiesbutton:hover {
+    background-color: #f4f4f4;
+    background-position: bottom;
+    color: #6A72E5;
+}
+
+/*Squadpage cards*/
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    padding: 0;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+
+    @media only screen and (max-width: 640px) {
+        display: block;
+        margin: 0;
+    }
+}
+
+.list {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.list-item {
+    @media only screen and (max-width: 640px) {
+        margin-bottom: 30px;
+    }
+}
+
+li {
+    position:relative;
+	height:50vh;
+	flex-shrink:1;
+	transition:.5s;
+	padding-top:3em;
+}
+
+li:hover {
+	height:50vh;
+	flex-shrink:0;
+}
+
+a img {
+	width:100%;
+	height:100%;
+	object-fit:cover;
+    border-radius: 8px;
+    filter: grayscale(1);
+    
+    @media only screen and (max-width: 640px) {
+        filter: grayscale(0);
+        margin-top: -15px;
+    }
+}
+
+a img:hover {
+    filter: grayscale(0);
+    transition: .5s;
+}
+
+li:nth-of-type(2) {
+	translate:0 -2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
+}
+
+li:nth-of-type(3) {
+	translate:0 2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
+}
+
+li:nth-of-type(5) {
+	translate:0 -2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
+}
+
+li:nth-of-type(6) {
+	translate:0 2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
+}
+
+li:nth-of-type(8) {
+	translate:0 -2em;
+
+    @media only screen and (max-width: 640px) {
+        translate: 0em;
+    }
+}
+li p {
+	margin:0;
+	top:0;
+	right:50%;
+	translate:50%;
+	position:absolute;
+	white-space:nowrap;
+	opacity:0;
+	transition:.5s;
+
+    @media only screen and (max-width: 640px) {
+        opacity: 1;
+    }
+}
+
+li:hover p {
+	opacity:1;
+}
+
+/*Info cards*/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 50%;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+      
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  #infomain {
+    display: flex;
+    margin: 100px
+  }
