@@ -3,7 +3,7 @@ In de start van de opleiding van de FDND hebben wij, de studenten van jaar 2024/
 Ieder van ons heeft een eigen webpage gecreëerd. De laatste stap was het samenvoegen van ieders idee en dat heeft ons geleid tot dit eindproduct!
 
 
-#### inhoudsopgave
+#### Inhoudsopgave
 [Beschrijving](#Beschrijving)<br>
 [Responsive webdesign](#resposive-webdesign)<br>
 [QR-code squadpage](#qr-code-squadpage)<br>
@@ -19,9 +19,9 @@ Naast dat de lay-out zich moet aanpassen aan het scherm is het ook van belang da
 denk hierbij bijvoorbeeld aan hover-effecten.
 
 ## Responsive-design
-###html-meta-tag
+### html-meta-tag
 
-Bovenaan de html-pagina tussen de <head> tag, hebben we de <meta> tag:
+Bovenaan de html-pagina tussen de head-tag, hebben we de meta-tag:
 
 <!DOCTYPE html>
 <html lang="en">
