@@ -11,7 +11,7 @@ Ieder van ons heeft een eigen webpage gecreëerd. De laatste stap was het samenv
 [Reflectie samenwerking](#reflectie-samenwerking)<br>
 
 
-# Resposive webdesign 
+# Responsive webdesign 
 Omdat het gebruik van mobiele telefoons en tablets etc.. op het internet toeneemt, is het belangrijk dat wij als toekomstige developers rekening houden om content op een manier te ontwerpen dat deze goed werkt voor verschillende schermformaten. Responsive webdesign wordt dit genoemt, is een ontwerpstratergie dat zich aanpast aan de behoeftes van gebruikers en de apparaten door de lay-out van de webpagina aan te passen aan de grootte van het scherm.
 
 Naast dat de lay-out zich moet aanpassen aan het scherm is het ook van belang dat alle interactieve-functionaliteiten werken naar behoren, omdat tegenwoordig alle hand-on devices touchscreen hebben.
@@ -98,7 +98,7 @@ Ik ben Cedrik en ik ben 21. Ik heb een grote passie voor digitaal ontwerp en vin
 ### Ravi
 Ik ben Ravi en ik heb mijn studie afgerond in Electrical Engineering. Hoewel ik dat altijd interessant vond, merkte ik na een tijdje dat het niet meer echt bij me paste. Daarom ben ik me gaan richten op development. Inmiddels heb ik wat ervaring opgedaan in HTML, CSS en JavaScript. Daarnaast heb ik ook gewerkt met backend-technologieën, zoals databases, crud-systemen en het express api.
 
-### Cristian
+### Christian
 
 -----------------------------------------------------------
 
