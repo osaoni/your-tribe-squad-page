@@ -4,11 +4,11 @@ Ieder van ons heeft een eigen webpage gecreëerd. De laatste stap was het samenv
 
 
 #### inhoudsopgave
-[Beschrijving](#Beschrijving)
-[Responsive webdesign](#resposive-webdesign)
-[QR-code squadpage](#qr-code-squadpage)
-[Het team](#het-team)
-[Reflectie samenwerking](#reflectie-samenwerking)
+[Beschrijving](#Beschrijving)<br>
+[Responsive webdesign](#resposive-webdesign)<br>
+[QR-code squadpage](#qr-code-squadpage)<br>
+[Het team](#het-team)<br>
+[Reflectie samenwerking](#reflectie-samenwerking)<br>
 
 
 # Resposive webdesign 
