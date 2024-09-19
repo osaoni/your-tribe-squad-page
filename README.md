@@ -65,6 +65,7 @@ Met @media queries kunnen we de css-properties aanpassen, als de pagina om een b
 
 -------------------------------------
 
+```
   li p {
     margin:0;
     top:0;
@@ -80,13 +81,15 @@ Met @media queries kunnen we de css-properties aanpassen, als de pagina om een b
     }
 }
 
+```
+
 Op de pagina zijn de namen van de personen alleen zichtbaar zodra je erover hovert. Bij schermen kleiner dan 640px worden de namen altijd zichtbaar gemaakt omdat je niet kunt hoveren met een touchscreen device.
 
-<img src="./img/pagina-op-smartphone.jpg" alt="smartphone-view" style="width:200px;"/>
+<img src="./img/pagina-op-smartphone.jpg" alt="smartphone-view" style="width:400px;"/>
 
 # QR-code squadpage
 
-<img src="./img/qr-code-webpagina.png" alt="qr-code" style="width:200px;"/>
+<img src="./img/qr-code-webpagina.png" alt="qr-code" style="width:400px;"/>
 
 
 ---------------------------------------------------------
