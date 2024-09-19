@@ -95,7 +95,7 @@ Op de pagina zijn de namen van de personen alleen zichtbaar zodra je erover hove
 ---------------------------------------------------------
 
 # Het team
-Ons team bestaat uit Ravi Cedrik en Christian
+Ons team bestaat uit Ravi, Cedrik en Christian
 
 ### Christian
 Ik ben Christian, de meesten noemen mij Chris. Ik ben 23 jaar oud. Ik ben een toekomstige Frontend Developer en een beginner in programmeren. Ik heb nog geen ervaring met HTML, CSS en Javascrip en ik vind het soms nog wel moeilijk, maar ik ben volhoudend. Ik zie de kansen die ik kan verkrijgen als een webdeveloper. Ik streef ernaar om de opleiding met succes af te ronden!
