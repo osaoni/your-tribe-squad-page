@@ -12,7 +12,7 @@ technieken die we gebruikt hebben:
 
 #### Inhoudsopgave
 [Beschrijving](#Beschrijving)<br>
-[Responsive-webdesign](#Resposive webdesign)<br>
+[Responsive-webdesign] (#Responsive webdesign)<br>
 [QR-code squadpage](#qr-code-squadpage)<br>
 [Het team](#het-team)<br>
 [Reflectie samenwerking](#reflectie-samenwerking)<br>
