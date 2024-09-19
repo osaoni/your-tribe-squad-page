@@ -78,9 +78,12 @@ Met @media queries kunnen we de css-properties aanpassen, als de pagina om een b
 
 Op de pagina zijn de namen van de personen alleen zichtbaar zodra je erover hovert. Bij schermen kleiner dan 640px worden de namen altijd zichtbaar gemaakt omdat je niet kunt hoveren met een touchscreen device.
 
-![Pagina op iphone](./img/pagina-op-smartphone.jpg)
+<img src="./img/pagina-op-smartphone.jpg" alt="smartphone-view" style="width:200px;"/>
+
 # QR-code squadpage
-![QR-code pagina](./img/qr-code-webpagina.png)
+
+<img src="./img/qr-code-webpagina.png" alt="qr-code" style="width:200px;"/>
+
 
 ---------------------------------------------------------
 
@@ -97,8 +100,6 @@ Ik ben Cedrik en ik ben 21. Ik heb een grote passie voor digitaal ontwerp en vin
 
 ### Ravi
 Ik ben Ravi en ik heb mijn studie afgerond in Electrical Engineering. Hoewel ik dat altijd interessant vond, merkte ik na een tijdje dat het niet meer echt bij me paste. Daarom ben ik me gaan richten op development. Inmiddels heb ik wat ervaring opgedaan in HTML, CSS en JavaScript. Daarnaast heb ik ook gewerkt met backend-technologieën, zoals databases, crud-systemen en het express api.
-
-### Cristian
 
 -----------------------------------------------------------
 
@@ -124,7 +125,7 @@ De functie waar ik het meest trost op ben is het gebruik van grid bij de info-pa
 ### Cedrik
 De samenwerking ging ontzettend goed. We zijn allemaal niet moeilijk en doen wat we moeten doen. Ik vind het fijn hoe mijn groepsleden gemotiveerd zijn en moeite in het project stoppen.
  
-Wat ging slecht?
+Wat kan beter?
 Ik merkte dat ik soms wel is taken die ik moest doen uitstelde of gewoon vergat. Dit was uiteindelijk geen probleem omdat ik het de volgende ochtend snel nog even kon doen. Maar voor de volgende keer is het verstandig om toch een strenge takenlijst te maken en me daar aan te houden.
 
 Groep
