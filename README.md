@@ -1,3 +1,5 @@
+<img src="./img/mockupsquadpage.png" alt="pae-mockup" style="width:400px;"/>
+
 # Beschrijving
 In de start van de opleiding van de FDND hebben wij, de studenten van jaar 2024/2025 de opdracht gekregen om onze eigen visitekaartje te ontwerpen. Na een intensieve week vol met informatie, oefeningen, trials and errors en feedback, is het de meeste van ons gelukt. Kort daarna hebben we de opdracht gekregen om een Squadpage te creëren De Squadpage is een pagina met alle visitekaartjes van de studenten van jaar 2024/2025 en de docenten. De klassen waren opgesplitst in groepen van drie. Ieder groepje kreeg de vrijheid om de Squadpage te ontwerpen naar zijn wens.
 Ieder van ons heeft een eigen webpage gecreëerd. De laatste stap was het samenvoegen van ieders idee en dat heeft ons geleid tot dit eindproduct!
@@ -10,7 +12,7 @@ technieken die we gebruikt hebben:
 
 #### Inhoudsopgave
 [Beschrijving](#Beschrijving)<br>
-[Responsive webdesign](#resposive-design)<br>
+[Responsive-webdesign](#Resposive webdesign)<br>
 [QR-code squadpage](#qr-code-squadpage)<br>
 [Het team](#het-team)<br>
 [Reflectie samenwerking](#reflectie-samenwerking)<br>
