@@ -244,3 +244,6 @@ Ik merkte dat ik aan het eind van de opdracht, met name bij het schrijven van de
 
 Groep
 Wij werkten niet echt met een planning. We wisten wel wat we moesten doen per dag, maar wellicht was het fijner geweest als we onze plannen en het huiswerk op papier hadden. 
+
+mockup foto op begin
+
