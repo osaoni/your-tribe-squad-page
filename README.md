@@ -23,6 +23,7 @@ denk hierbij bijvoorbeeld aan hover-effecten.
 
 Bovenaan de html-pagina tussen de head-tag, hebben we de meta-tag:
 
+```
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,10 +31,11 @@ Bovenaan de html-pagina tussen de head-tag, hebben we de meta-tag:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     …
   </head>
+```
 
-In de <head> staan allerlei gegevens voor de browser en zoekmachines om de pagina op de juiste manier weer te geven. De data is niet zichtbaar op de pagina , maar werkt in de browser. 
+In de head-tag staan allerlei gegevens voor de browser en zoekmachines om de pagina op de juiste manier weer te geven. De data is niet zichtbaar op de pagina , maar werkt in de browser. 
 
-Deze <meta name="viewport" content="width=device-width, initial-scale=1"> tag zorgt ervoor dat de pagina's er beter uit zien op devices van verschillende grootte. Dat het zich aanpast aan de viewport van het device. Dit is verre van genoeg.
+Deze ``` <meta name="viewport" content="width=device-width, initial-scale=1"> ``` tag zorgt ervoor dat de pagina's er beter uit zien op devices van verschillende grootte. Dat het zich aanpast aan de viewport van het device. Dit is verre van genoeg.
 
 Dit is een minimale optie om je pagina goed weer te geven op andere devices. Om het lay-out te optimaliseren maken we gebruik van media-queries.
 
@@ -42,6 +44,7 @@ Met @media queries kunnen we de css-properties aanpassen, als de pagina om een b
 
 -------------------------------------
 
+```
 #infomain {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -55,6 +58,7 @@ Met @media queries kunnen we de css-properties aanpassen, als de pagina om een b
     }
   }
 
+```
   In dit geval zal de grid-display-columns veranderen van 3 columns naar 1 column als de pagina een breedte krijgt van 640px. De foto's worden nu elk onder elkaar weergegeven en niet naast elkaar.
 
 ![Pagina op mac](./img/pagina-op-lappie.png)
