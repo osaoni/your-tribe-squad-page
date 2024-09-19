@@ -40,7 +40,7 @@ Deze ``` <meta name="viewport" content="width=device-width, initial-scale=1"> ``
 Dit is een minimale optie om je pagina goed weer te geven op andere devices. Om het lay-out te optimaliseren maken we gebruik van media-queries.
 
 ### Media-queries
-Met @media queries kunnen we de css-properties aanpassen, als de pagina om een bepaalde grote wordt weergegeven.
+Met @media queries kunnen we de css-properties aanpassen, als de pagina op een bepaalde grote wordt weergegeven.
 
 -------------------------------------
 
