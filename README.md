@@ -61,7 +61,7 @@ Met @media queries kunnen we de css-properties aanpassen, als de pagina op een b
 ```
   In dit geval zal de grid-display-columns veranderen van 3 columns naar 1 column als de pagina een breedte krijgt van 640px. De foto's worden nu elk onder elkaar weergegeven en niet naast elkaar.
 
-![Pagina op mac](./img/pagina-op-lappie.png)
+![Pagina op mac](./img/info-page.png)
 
 -------------------------------------
 
