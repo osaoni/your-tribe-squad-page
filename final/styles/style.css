@@ -80,6 +80,7 @@ h1 {
     background-position: top;
     transition: .5s;
     transition-timing-function: ease-in-out;
+    cursor: pointer;
 }
 
 .klasbutton:hover, .klasbutton:focus-visible {
@@ -95,6 +96,7 @@ h1 {
     background-position: top;
     transition: .5s;
     transition-timing-function: ease-in-out;
+    cursor: pointer;
 }
 
 .locatiesbutton:hover, .locatiesbutton:focus-visible{
